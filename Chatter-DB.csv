@@ -106,37 +106,46 @@ Orador,Sentença,Intenção
 <,"Não, desejo finalizar a compra",Finalizar
 >,Por nada!,
 ,,
-,,
->,"Olá, seja bem vindo, o que deseja?",
+<,Iae,Saudação
+>,"Seja bem vindo, o que deseja?",
 <,Gostaria de fazer um orçamento com vocês,Produtos
->,[Lista todos os produtos em estoque],
-<,Quero comprar cinco canetas e 20 cadernos,Pedido
+>,"Certo!
+[Lista todos os produtos em estoque]",
+<,"Ok, obrigado!",Finalizar
+>,Por nada!,
 >,"Certo, deseja algo mais?",
 <,"Sim, quero mais 8 lápis e 20 caixas de clipe",Pedido
 >,"Certo, deseja algo mais?",
 <,"Não, desejo finalizar a compra",Finalizar
 >,Por nada!,
 ,,
->,"Olá, seja bem vindo, o que deseja?",
+<,Iae!,Saudação
+>,"Seja bem vindo, o que deseja?",
 <,Gostaria de fazer um orçamento com vocês,Produtos
->,[Lista todos os produtos em estoque],
-<,Quero comprar cinco canetas e 20 cadernos,Pedido
+>,"Certo!
+[Lista todos os produtos em estoque]",
+<,"Ok, obrigado!",Finalizar
+>,Por nada!,
 >,"Certo, deseja algo mais?",
-<,"Sim, quero mais oito lápis e vinte caixas de clipe",Pedido
+<,"Sim, quero mais 8 lápis e 20 caixas de clipe",Pedido
 >,"Certo, deseja algo mais?",
 <,"Não, desejo finalizar a compra",Finalizar
 >,Por nada!,
 ,,
->,"Olá, seja bem vindo, o que deseja?",
+<,Olá,Saudação
+>,"Seja bem vindo, o que deseja?",
 <,Gostaria de fazer um orçamento com vocês,Produtos
->,[Lista todos os produtos em estoque],
-<,Quero comprar cinco canetas e 20 cadernos,Pedido
+>,"Certo!
+[Lista todos os produtos em estoque]",
+<,"Ok, obrigado!",Finalizar
+>,Por nada!,
 >,"Certo, deseja algo mais?",
-<,"Sim, quero mais oito lápis e 20 caixas de clipe",Pedido
+<,"Sim, quero mais 8 lápis e 20 caixas de clipe",Pedido
 >,"Certo, deseja algo mais?",
 <,"Não, desejo finalizar a compra",Finalizar
 >,Por nada!,
 ,,
+<,Olá!,Saudação
 >,"Seja bem vindo, o que deseja?",
 <,Gostaria de fazer um orçamento com vocês,Produtos
 >,"Certo!
@@ -144,6 +153,7 @@ Orador,Sentença,Intenção
 <,"Ok, obrigado!",Finalizar
 >,Por nada!,
 ,,
+<,Ola,Saudação
 >,"Seja bem vindo, o que deseja?",
 <,Gostaria de fazer um orçamento com vocês,Produtos
 >,"Certo!
@@ -151,6 +161,7 @@ Orador,Sentença,Intenção
 <,"Ok, obrigado!",Finalizar
 >,Por nada!,
 ,,
+<,Ola!,Saudação
 >,"Seja bem vindo, o que deseja?",
 <,Quais produtos vocês têm aí?,Produtos
 >,"É pra já!
@@ -163,6 +174,7 @@ Orador,Sentença,Intenção
 >,"O preço final fica R$XX,XX. Qual a forma de pagamento?",
 <,Dinheiro,Forma_pagamento
 ,,
+<,Iae,Saudação
 >,"Seja bem vindo, o que deseja?",
 <,Quais produtos vocês têm aí?,Produtos
 >,"É pra já!
@@ -175,6 +187,7 @@ Orador,Sentença,Intenção
 >,"O preço final fica R$XX,XX. Qual a forma de pagamento?",
 <,Cartão de crédito,Forma_pagamento
 ,,
+<,Iae!,Saudação
 >,"Seja bem vindo, o que deseja?",
 <,Quais produtos vocês têm aí?,Produtos
 >,"É pra já!
@@ -187,6 +200,7 @@ Orador,Sentença,Intenção
 >,"O preço final fica R$XX,XX. Qual a forma de pagamento?",
 <,Cartão de débito,Forma_pagamento
 ,,
+<,Eae,Saudação
 >,"Seja bem vindo, o que deseja?",
 <,Quais produtos vocês têm aí?,Produtos
 >,"É pra já!
@@ -197,6 +211,7 @@ Orador,Sentença,Intenção
 >,"O preço final fica R$XX,XX. Qual a forma de pagamento?",
 <,Dinheiro,Forma_pagamento
 ,,
+<,Eae!,Saudação
 >,"Seja bem vindo, o que deseja?",
 <,Quais produtos vocês têm aí?,Produtos
 >,"É pra já!
@@ -207,6 +222,7 @@ Orador,Sentença,Intenção
 >,"O preço final fica R$XX,XX. Qual a forma de pagamento?",
 <,Cartão de crédito,Forma_pagamento
 ,,
+<,Salve,Saudação
 >,"Seja bem vindo, o que deseja?",
 <,Quais produtos vocês têm aí?,Produtos
 >,"É pra já!
@@ -217,6 +233,7 @@ Orador,Sentença,Intenção
 >,"O preço final fica R$XX,XX. Qual a forma de pagamento?",
 <,Cartão de débito,Forma_pagamento
 ,,
+<,Salve!,Saudação
 >,"Seja bem vindo, o que deseja?",
 <,Que produtos vocês tem ai?,Produtos
 >,"É pra já!
